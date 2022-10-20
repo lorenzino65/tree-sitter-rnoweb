@@ -1,0 +1,207 @@
+[
+  {
+    "type": "latex",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "rchunk",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "renv_content",
+          "named": true
+        },
+        {
+          "type": "renv_sig_options",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "renv_engine",
+    "named": true,
+    "fields": {
+      "engine": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "renv_engine_key",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "renv_key_pair",
+    "named": true,
+    "fields": {
+      "key": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "renv_key",
+            "named": true
+          }
+        ]
+      },
+      "value": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "renv_val",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "renv_sig_options",
+    "named": true,
+    "fields": {
+      "label": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "renv_label",
+            "named": true
+          }
+        ]
+      },
+      "options": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": ",",
+            "named": false
+          },
+          {
+            "type": "=",
+            "named": false
+          },
+          {
+            "type": "engine",
+            "named": false
+          },
+          {
+            "type": "renv_engine",
+            "named": true
+          },
+          {
+            "type": "renv_key_pair",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "rinline",
+    "named": true,
+    "fields": {
+      "Sexpr": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "renv_content",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "latex",
+          "named": true
+        },
+        {
+          "type": "rchunk",
+          "named": true
+        },
+        {
+          "type": "rinline",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": ",",
+    "named": false
+  },
+  {
+    "type": "=",
+    "named": false
+  },
+  {
+    "type": "@",
+    "named": false
+  },
+  {
+    "type": "command_name",
+    "named": true
+  },
+  {
+    "type": "engine",
+    "named": false
+  },
+  {
+    "type": "renv_content",
+    "named": true
+  },
+  {
+    "type": "renv_engine_key",
+    "named": true
+  },
+  {
+    "type": "renv_key",
+    "named": true
+  },
+  {
+    "type": "renv_label",
+    "named": true
+  },
+  {
+    "type": "renv_val",
+    "named": true
+  },
+  {
+    "type": "{",
+    "named": false
+  },
+  {
+    "type": "}",
+    "named": false
+  }
+]

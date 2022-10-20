@@ -1,0 +1,31 @@
+{
+  "name": "tree-sitter-rnoweb",
+  "version": "1.0.0",
+  "description": "my first try",
+  "main": "bindings/node",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorenzino65/tree-sitter-rnoweb.git"
+  },
+  "author": "lorenzino65",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lorenzino65/tree-sitter-rnoweb/issues"
+  },
+  "homepage": "https://github.com/lorenzino65/tree-sitter-rnoweb#readme",
+  "dependencies": {
+    "nan": "^2.17.0"
+  },
+  "tree-sitter": [
+    {
+      "scope": "source.Rnw",
+      "file-types": [
+        "rnoweb",
+        "Rnw"
+      ]
+    }
+  ]
+}
